@@ -5,6 +5,13 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+#program-languages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: center;
+}
 
-
-
+#program-languages > .icon {
+	width: 10%
+}
