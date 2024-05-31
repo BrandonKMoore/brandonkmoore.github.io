@@ -27,7 +27,7 @@ $toEmail = "codingwithte.17@gmail.com"; // Replace Your Email Address
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "myboyknuckles@gmail.com";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromEmail = "form@kiantemoore.com";  // Replace Company's Email Address (preferably currently used Domain Name)
 $fromName = "KianteMoore.com"; // Replace Company Name
 
 
