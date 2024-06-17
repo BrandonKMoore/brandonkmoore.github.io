@@ -27,7 +27,7 @@ $toEmail = "codingwithte.17@gmail.com"; // Replace Your Email Address
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "form@kiantemoore.com";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromEmail = "no-reply@kiantemoore.com";  // Replace Company's Email Address (preferably currently used Domain Name)
 $fromName = "KianteMoore.com"; // Replace Company Name
 
 
@@ -55,7 +55,14 @@ $mail = new PHPMailer(true);
 
 /* Add your SMTP Codes after this Line */
 
-
+$mail->isSMTP();
+$mail->SMTPDebug = 0;
+$mail->Host = 'mail.kiantemoore.com';
+$mail->SMTPAuth = true;
+$mail->Username = "kiante@kiantemoore.com";
+$mail->Password = "#123234231feat";
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 // End of SMTP
 
 if (filter_var($toEmail, FILTER_VALIDATE_EMAIL)) {
